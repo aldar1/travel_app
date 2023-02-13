@@ -44,6 +44,17 @@ class CardImages extends StatelessWidget {
           margin: const EdgeInsets.only(left: 10,right: 10),
           width: 250,
           height: 220,
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(20),
+            boxShadow: const [
+              BoxShadow(
+                color: Color.fromRGBO(27, 27, 27, 0.12),
+                offset: const Offset(0.0,5.0),
+                spreadRadius: 2,
+                blurRadius: 5.0
+              ),
+            ],
+          ),
           child: ClipRRect(
             borderRadius: BorderRadius.circular(20),
             child: Image(

@@ -11,6 +11,7 @@ class BackgroundAppBar extends StatelessWidget{
       height: size.height*0.37,
       decoration: const BoxDecoration(
         gradient: LinearGradient(
+          
           stops: [0.3,0.9],
           colors: [
             Color(0xff4367D3),
